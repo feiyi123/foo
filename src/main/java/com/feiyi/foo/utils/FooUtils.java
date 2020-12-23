@@ -14,8 +14,8 @@ public class FooUtils {
         File file = new File(".");
         rootPath = file.getAbsolutePath().replace("\\.",  "").replace("\\foo", "");
     }
-    public static String loadDataSource = rootPath + "\\foo\\src\\main\\resources\\foo.csv";
-    public static String outPutSource =  rootPath + "\\foo\\src\\test\\java\\com\\feiyi\\foo\\output\\result.csv";
+    public static String loadDataSource = rootPath + "\\src\\main\\resources\\foo.csv";
+    public static String outPutSource =  rootPath + "\\src\\test\\java\\com\\feiyi\\foo\\output\\result.csv";
     public final static String delim = ",";
 
 
